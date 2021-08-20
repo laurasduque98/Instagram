@@ -21,13 +21,16 @@
 
     <Button
         android:id="@+id/loginIniciarsesion"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="INICIAR SESIÓN"
+        android:layout_width="244dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#00BB86FC"
+        android:text="logIn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="423dp" />
+        app:strokeColor="#74EA96DE"
+        app:strokeWidth="2dp"
+        tools:layout_editor_absoluteY="391dp" />
 
     <EditText
         android:id="@+id/loginPassword"
@@ -44,43 +47,75 @@
 
     <EditText
         android:id="@+id/loginUsername"
-        android:layout_width="232dp"
-        android:layout_height="33dp"
+        android:layout_width="241dp"
+        android:layout_height="38dp"
         android:background="@drawable/help"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="282dp" />
+        tools:layout_editor_absoluteY="285dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="forgot your login details?"
+        android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="499dp" />
+        tools:layout_editor_absoluteY="456dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get help signing in"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="499dp" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="456dp" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="13dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="or"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="553dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="27dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="log in with facebook"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#65EF29C5"
+        android:backgroundTint="#F140C4"
+        android:backgroundTintMode="add"
+        android:text="dont have an account? Sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
